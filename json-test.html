@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js.js"></script>
+  </head>
+  <body onload="doLoad()">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" id = "d1-name"></h2>
+        <p id="d1-description" class="lead"> </p>
+      </div>
+      <div class="col-md-5">
+        <img id ="d1-img" class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+<script type="text/javascript">
+var dName = document.getElementById("d1-name");
+//var dImg = document.getElementById("d1-img");
+//  var dDescription = document.getElementById("d1-description");
+//function(){
+  var request = new XMLHttpRequest();
+  request.open('GET','https://raw.githubusercontent.com/MiaZhao666/6420-Assignment2/master/Home-j.json')
+  function doLoad(){
+    var ttt = request.ResponseText;
+    alert(ttt)
+    var ourData = JSON.parse(request.ResponseText);
+    alert(ourData);
+    renderHTML(ourData)
+  }
+request.send();
+function renderHTML(data){
+  var testString = data[0].name;
+  //for (i=1;i<data.length;i++){
+    //testString +=data[i].name;
+    dName.insertAdjacentHTML("beforsend",testString)
+  }
+  //console.log(data[0]);
+</script>
+
+  </body>
+</html>
