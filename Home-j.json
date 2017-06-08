@@ -1,0 +1,32 @@
+[{
+  "name":"Flowers Garen",
+  "description":"This is Acrylic on Canvas Painting. New condition.Size: 24 in Width X 18 in Height. Medium: Acrylic Surface: Canvas Artist: Samiran Sarkar, Framing This painting is currently unframed and available in rolled format.Shipping Ship all over world .After order it will take within 14 days for destination place. Packaging Proper Packaging with Tube & bubble paper wrapping with Roll process.",
+  "price":"$400",
+  "image": img.src="P1.jpg"
+},{
+  "name":"Collie",
+  "description":"Stretched canvas print, digitally created original art work",
+  "price":"$125",
+  "image": img.src="P2.jpg"
+},{
+  "name":"Morning City Light",
+  "description":"This is Acrylic on Canvas Painting. New condition. Size: 36 in Width X 30 in Height. Medium: Acrylic Surface: Canvas Artist: Samiran Sarkar, Framing This painting is currently unframed and available in rolled format. Shipping Ship all over world .After order it will take within 14 days for destination place. Packaging Proper Packaging with Tube & bubble paper wrapping with Roll process.",
+  "price":"$800",
+  "image": img.src="P3.jpg"
+},{
+  "name":"Dark Desire",
+  "description":"Art by: Nicole OConnor",
+  "price":"$800",
+  "image": img.src="P4.jpg"
+},{
+  "name":"Red Carpet",
+  "description":"Art by: Nicole OConnor",
+  "price":"$500",
+  "image": img.src="P5.jpg"
+},{
+  "name":"Music Heaven",
+  "description":"A ready to hang canvas print. Free delivery within NZ. Other size options are available. Email info@kiwipainting.co.nz for size option and price. You can make comments of this canvas print on facebook by this link: http://www.facebook.com/media/set/?set=a.199259326839830.41337.100002672927569&type=1&l=e8bf44b9dd",
+  "price":"$159",
+  "image": img.src="P6.jpg"
+}
+]
